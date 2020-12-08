@@ -1,0 +1,8 @@
+
+
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.index .navbar-inverse a.navbar-brand[href="Parker Layden-Tapp"]
+{
+    color: white;
+}
