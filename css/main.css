@@ -6,3 +6,9 @@
 {
     color: white;
 }
+main {
+    min-height: calc(100vh - 2.5em);
+}
+footer {
+    height: 1em;
+}

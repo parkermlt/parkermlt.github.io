@@ -14,6 +14,7 @@ module.exports = class extends Page {
     <title>Contact</title>
     </head>
     <body>
+    <main>
     ${new Header().render()}
     ${new Nav().render()}
     ${this.requireMarked('pages/contact.md')};
@@ -23,6 +24,7 @@ module.exports = class extends Page {
         <textarea name="message" placeholder="enter your message here" required></textarea><br />
         <button type="submit">Send</button>
     </form>
+    </main>
     ${new Footer().render()}
     </body>
 </html>
